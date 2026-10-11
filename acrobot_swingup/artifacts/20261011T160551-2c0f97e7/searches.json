@@ -1,0 +1,116 @@
+[
+  {
+    "seed": 0,
+    "success": true,
+    "attempts": [
+      {
+        "attempt": 0,
+        "fit": {
+          "solver_success": true,
+          "status": "Solve_Succeeded",
+          "iterations": 69,
+          "seconds": 45.763522238
+        },
+        "validation": {
+          "episodes": 1,
+          "final_10s_rate": 1.0,
+          "final_hold_seconds": [
+            12.850000000000609
+          ],
+          "longest_hold_seconds": [
+            12.850000000000609
+          ],
+          "final_states": [
+            [
+              3.141592653589564,
+              9.312550730555813e-13,
+              -1.296099245865733e-13,
+              2.7748956208340204e-13
+            ]
+          ],
+          "physics_dt": 0.005,
+          "max_height": [
+            1.0
+          ]
+        }
+      }
+    ],
+    "file": "optimal-0-0.npz"
+  },
+  {
+    "seed": 1,
+    "success": true,
+    "attempts": [
+      {
+        "attempt": 0,
+        "fit": {
+          "solver_success": true,
+          "status": "Solve_Succeeded",
+          "iterations": 158,
+          "seconds": 77.937943817
+        },
+        "validation": {
+          "episodes": 1,
+          "final_10s_rate": 1.0,
+          "final_hold_seconds": [
+            13.695000000000741
+          ],
+          "longest_hold_seconds": [
+            13.695000000000741
+          ],
+          "final_states": [
+            [
+              3.141592653589541,
+              1.0311751452718454e-12,
+              2.275181869308452e-13,
+              -8.122831104086354e-13
+            ]
+          ],
+          "physics_dt": 0.005,
+          "max_height": [
+            1.0
+          ]
+        }
+      }
+    ],
+    "file": "optimal-1-0.npz"
+  },
+  {
+    "seed": 2,
+    "success": true,
+    "attempts": [
+      {
+        "attempt": 0,
+        "fit": {
+          "solver_success": true,
+          "status": "Solve_Succeeded",
+          "iterations": 111,
+          "seconds": 75.90250003300001
+        },
+        "validation": {
+          "episodes": 1,
+          "final_10s_rate": 1.0,
+          "final_hold_seconds": [
+            13.810000000000759
+          ],
+          "longest_hold_seconds": [
+            13.810000000000759
+          ],
+          "final_states": [
+            [
+              3.1415926535894645,
+              1.2314593789142236e-12,
+              2.3493824262762744e-13,
+              -8.121877713335485e-13
+            ]
+          ],
+          "physics_dt": 0.005,
+          "max_height": [
+            1.0
+          ]
+        }
+      }
+    ],
+    "file": "optimal-2-0.npz"
+  }
+]

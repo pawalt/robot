@@ -1,0 +1,25 @@
+{
+  "training": {
+    "episodes": 5000,
+    "seed": 0,
+    "size": 10,
+    "max_steps": 200,
+    "alpha": 0.1,
+    "gamma": 0.95
+  },
+  "evaluation_seed": 10000,
+  "random": {
+    "episodes": 99,
+    "success_rate": 0.40404040404040403,
+    "mean_steps": 150.55555555555554,
+    "mean_return": -146.11111111111111,
+    "mean_extra_steps_on_success": 69.8
+  },
+  "learned": {
+    "episodes": 99,
+    "success_rate": 1.0,
+    "mean_steps": 9.090909090909092,
+    "mean_return": 1.9090909090909092,
+    "mean_extra_steps_on_success": 0.0
+  }
+}

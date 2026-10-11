@@ -1,0 +1,1686 @@
+{
+  "id": "20261011T155033-e22343c2",
+  "kind": "controller_search",
+  "limit": 1.0,
+  "candidates": [
+    {
+      "config": {
+        "family": "power",
+        "ke": 3.0,
+        "kp": 0,
+        "kd": 0.05,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.25,
+      "final_5s_rate": 0.25,
+      "mean_longest_hold": 5.11500000000022,
+      "mean_max_height": 0.9288806888833087,
+      "per_episode_hold": [
+        33.700000000001864,
+        0.0,
+        0.0,
+        0.22000000000000006,
+        0.0,
+        0.0,
+        0.0,
+        6.999999999999895
+      ]
+    },
+    {
+      "config": {
+        "family": "power",
+        "ke": 0.3,
+        "kp": 0.1,
+        "kd": 0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.125,
+      "final_5s_rate": 0.125,
+      "mean_longest_hold": 4.8937500000001,
+      "mean_max_height": 0.9417439984736442,
+      "per_episode_hold": [
+        0.11999999999999998,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        39.030000000000804,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "power",
+        "ke": 1.0,
+        "kp": 0.5,
+        "kd": 0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.125,
+      "final_5s_rate": 0.125,
+      "mean_longest_hold": 4.693750000000137,
+      "mean_max_height": 0.8699112526226462,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        37.5500000000011
+      ]
+    },
+    {
+      "config": {
+        "family": "power",
+        "ke": 3.0,
+        "kp": 0.5,
+        "kd": 0.05,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.125,
+      "final_5s_rate": 0.125,
+      "mean_longest_hold": 3.2500000000000777,
+      "mean_max_height": 0.9363013077811003,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.3200000000000001,
+        0.0,
+        3.149999999999977,
+        0.5000000000000002,
+        22.030000000000644
+      ]
+    },
+    {
+      "config": {
+        "family": "power",
+        "ke": 0.1,
+        "kp": 0.1,
+        "kd": 0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.125,
+      "final_5s_rate": 0.125,
+      "mean_longest_hold": 3.105000000000135,
+      "mean_max_height": 0.9842180442770156,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.03,
+        24.81000000000108,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "power",
+        "ke": 3.0,
+        "kp": 0.1,
+        "kd": 0.05,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.125,
+      "final_5s_rate": 0.125,
+      "mean_longest_hold": 2.5250000000000448,
+      "mean_max_height": 0.9231285889550689,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        20.200000000000358
+      ]
+    },
+    {
+      "config": {
+        "family": "power",
+        "ke": 0.1,
+        "kp": 0,
+        "kd": 0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.4087499999999986,
+      "mean_max_height": 0.9541733029359488,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.5999999999999885,
+        0.0,
+        0.4100000000000002,
+        0.26000000000000006
+      ]
+    },
+    {
+      "config": {
+        "family": "power",
+        "ke": 3.0,
+        "kp": 0.5,
+        "kd": 0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.1325000000000001,
+      "mean_max_height": 0.8906481371957,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0600000000000007,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "power",
+        "ke": 0.03,
+        "kp": 0.1,
+        "kd": 0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.1287500000000001,
+      "mean_max_height": 0.9739995412990488,
+      "per_episode_hold": [
+        0.0,
+        1.0300000000000007,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "power",
+        "ke": 3.0,
+        "kp": 0.1,
+        "kd": 0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.12125000000000005,
+      "mean_max_height": 0.9420203804613878,
+      "per_episode_hold": [
+        0.3200000000000001,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2800000000000001,
+        0.0,
+        0.37000000000000016
+      ]
+    },
+    {
+      "config": {
+        "family": "power",
+        "ke": 1.0,
+        "kp": 0,
+        "kd": 0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.10750000000000005,
+      "mean_max_height": 0.9298382381863657,
+      "per_episode_hold": [
+        0.0,
+        0.22000000000000006,
+        0.6400000000000003,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "power",
+        "ke": 0.3,
+        "kp": 0.1,
+        "kd": 0.05,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.10375000000000005,
+      "mean_max_height": 0.9722029244297941,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.6200000000000003,
+        0.0,
+        0.0,
+        0.21000000000000005,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "power",
+        "ke": 0.3,
+        "kp": 0.5,
+        "kd": 0.05,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.10250000000000006,
+      "mean_max_height": 0.9368474096237839,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.8200000000000005,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "power",
+        "ke": 1.0,
+        "kp": 0.1,
+        "kd": 0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.07750000000000004,
+      "mean_max_height": 0.8706418640501233,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.6200000000000003
+      ]
+    },
+    {
+      "config": {
+        "family": "power",
+        "ke": 0.3,
+        "kp": 0,
+        "kd": 0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.07125000000000004,
+      "mean_max_height": 0.9306614836550746,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5700000000000003,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "power",
+        "ke": 1.0,
+        "kp": 0.1,
+        "kd": 0.05,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.06625000000000003,
+      "mean_max_height": 0.8751630861780897,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.5300000000000002,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "power",
+        "ke": 3.0,
+        "kp": 0,
+        "kd": 0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.03875000000000001,
+      "mean_max_height": 0.9384715080449637,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.09,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.22000000000000006
+      ]
+    },
+    {
+      "config": {
+        "family": "power",
+        "ke": 0.1,
+        "kp": 0.5,
+        "kd": 0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.03750000000000001,
+      "mean_max_height": 0.9753416451412618,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3000000000000001
+      ]
+    },
+    {
+      "config": {
+        "family": "power",
+        "ke": 0.3,
+        "kp": 0,
+        "kd": 0.05,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.03000000000000001,
+      "mean_max_height": 0.9324689490215328,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.24000000000000007,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 1.0,
+        "kp": 2.0,
+        "kd": 1.0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.024999999999999998,
+      "mean_max_height": 0.9900002341871271,
+      "per_episode_hold": [
+        0.11999999999999998,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.08,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "power",
+        "ke": 1.0,
+        "kp": 0.5,
+        "kd": 0.05,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.022500000000000003,
+      "mean_max_height": 0.858040873978613,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.18000000000000002,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 1.0,
+        "kp": 0.5,
+        "kd": 0.1,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.9930235388315138,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 1.0,
+        "kp": 8.0,
+        "kd": 1.0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.9844034370562563,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 1.0,
+        "kp": 8.0,
+        "kd": 0.1,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.9797846509818235,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 0.3,
+        "kp": 8.0,
+        "kd": 0.1,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.9790273586339564,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 1.0,
+        "kp": 2.0,
+        "kd": 0.1,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.9770090923708757,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 0.3,
+        "kp": 2.0,
+        "kd": 0.1,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.9765427531768047,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "power",
+        "ke": 0.1,
+        "kp": 0.1,
+        "kd": 0.05,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.9759937175782073,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "power",
+        "ke": 0.1,
+        "kp": 0.5,
+        "kd": 0.05,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.9755597888421771,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "power",
+        "ke": 0.03,
+        "kp": 0.5,
+        "kd": 0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.9741787853806806,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 1.0,
+        "kp": 0.5,
+        "kd": 1.0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.9665103889534312,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 0.3,
+        "kp": 0.5,
+        "kd": 0.1,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.9598518006184809,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "power",
+        "ke": 0.03,
+        "kp": 0,
+        "kd": 0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.9541923165140699,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "power",
+        "ke": 0.03,
+        "kp": 0.5,
+        "kd": 0.05,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.9522243377651831,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "power",
+        "ke": 0.3,
+        "kp": 0.5,
+        "kd": 0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.9451262655630663,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "power",
+        "ke": 0.1,
+        "kp": 0,
+        "kd": 0.05,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.9309993509868462,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 0.1,
+        "kp": 2.0,
+        "kd": 0.1,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.9302680964467773,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "power",
+        "ke": 0.03,
+        "kp": 0,
+        "kd": 0.05,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.9292540662216602,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "power",
+        "ke": 0.03,
+        "kp": 0.1,
+        "kd": 0.05,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.9246979981472223,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 0.1,
+        "kp": 0.5,
+        "kd": 0.1,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.8974750605014233,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 0.1,
+        "kp": 8.0,
+        "kd": 0.1,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.8951375189323328,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 0.3,
+        "kp": 0.5,
+        "kd": 1.0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.874564079594286,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 0.03,
+        "kp": 8.0,
+        "kd": 0.1,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.8715669800935348,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "power",
+        "ke": 1.0,
+        "kp": 0,
+        "kd": 0.05,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.8454320234436352,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 0.3,
+        "kp": 2.0,
+        "kd": 1.0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.8433754680473853,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 0.3,
+        "kp": 8.0,
+        "kd": 1.0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.8291474900361433,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 0.1,
+        "kp": 0.5,
+        "kd": 1.0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.4670036719381053,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 0.1,
+        "kp": 8.0,
+        "kd": 1.0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.42472466249843266,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 0.1,
+        "kp": 2.0,
+        "kd": 1.0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.3527143953104,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 0.03,
+        "kp": 2.0,
+        "kd": 0.1,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.20945260012735428,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 0.01,
+        "kp": 8.0,
+        "kd": 0.1,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.1674139164582412,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 0.03,
+        "kp": 0.5,
+        "kd": 0.1,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.14886377723059843,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 0.03,
+        "kp": 0.5,
+        "kd": 1.0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.04102464323840068,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 0.03,
+        "kp": 2.0,
+        "kd": 1.0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.03881881628763473,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 0.01,
+        "kp": 2.0,
+        "kd": 0.1,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.025468715580525533,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 0.01,
+        "kp": 0.5,
+        "kd": 0.1,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.008295133285866223,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 0.01,
+        "kp": 2.0,
+        "kd": 1.0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.007124961919545973,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 0.01,
+        "kp": 0.5,
+        "kd": 1.0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.00486017642831716,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 0.01,
+        "kp": 8.0,
+        "kd": 1.0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.000935305227205141,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "config": {
+        "family": "pfl",
+        "ke": 0.03,
+        "kp": 8.0,
+        "kd": 1.0,
+        "limit": 1.0
+      },
+      "seed": 41000,
+      "episodes": 8,
+      "seconds": 60,
+      "hold_5s_rate": 0.0,
+      "final_5s_rate": 0.0,
+      "mean_longest_hold": 0.0,
+      "mean_max_height": 0.0009186117252474521,
+      "per_episode_hold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "chosen": {
+    "family": "power",
+    "ke": 3.0,
+    "kp": 0,
+    "kd": 0.05,
+    "limit": 1.0
+  },
+  "validation": {
+    "config": {
+      "family": "power",
+      "ke": 3.0,
+      "kp": 0,
+      "kd": 0.05,
+      "limit": 1.0
+    },
+    "seed": 42000,
+    "episodes": 64,
+    "seconds": 60,
+    "hold_5s_rate": 0.0,
+    "final_5s_rate": 0.0,
+    "mean_longest_hold": 0.03976562500000003,
+    "mean_max_height": 0.9382936471646727,
+    "per_episode_hold": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.39500000000000024,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.22500000000000012,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.6700000000000005,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.9300000000000007,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.3250000000000002,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "recordings": [
+    {
+      "video": "swingup-0.mp4",
+      "poster": "swingup-0.jpg",
+      "episode_index": 0,
+      "seed": 42000,
+      "longest_hold": 0.0
+    },
+    {
+      "video": "swingup-1.mp4",
+      "poster": "swingup-1.jpg",
+      "episode_index": 1,
+      "seed": 42000,
+      "longest_hold": 0.0
+    },
+    {
+      "video": "swingup-2.mp4",
+      "poster": "swingup-2.jpg",
+      "episode_index": 2,
+      "seed": 42000,
+      "longest_hold": 0.0
+    },
+    {
+      "video": "swingup-3.mp4",
+      "poster": "swingup-3.jpg",
+      "episode_index": 3,
+      "seed": 42000,
+      "longest_hold": 0.0
+    }
+  ]
+}

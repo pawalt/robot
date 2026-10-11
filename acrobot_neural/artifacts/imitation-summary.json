@@ -1,0 +1,58 @@
+{
+  "imitation_batches": [
+    {
+      "id": "20261011T172359-d6f517e1",
+      "jobs": 9,
+      "updates": 216000,
+      "videos": 36,
+      "elapsed_job_seconds": 3476.422087073
+    },
+    {
+      "id": "20261011T172722-8b791d5f",
+      "jobs": 9,
+      "updates": 216000,
+      "videos": 36,
+      "elapsed_job_seconds": 3746.8964152889994
+    },
+    {
+      "id": "20261011T173237-304bb72f",
+      "jobs": 3,
+      "updates": 144000,
+      "videos": 12,
+      "elapsed_job_seconds": 2306.896838573
+    },
+    {
+      "id": "20261011T173237-8df2d72c",
+      "jobs": 3,
+      "updates": 144000,
+      "videos": 12,
+      "elapsed_job_seconds": 2374.116940688
+    }
+  ],
+  "ppo_runs": [
+    {
+      "id": "20261011T174348-20a2d60f",
+      "seed": 0,
+      "selected_stage": "ppo-4",
+      "transitions": 9216000,
+      "videos": 8
+    },
+    {
+      "id": "20261011T174350-57c04f70",
+      "seed": 1,
+      "selected_stage": "ppo-0",
+      "transitions": 9216000,
+      "videos": 7
+    },
+    {
+      "id": "20261011T174351-0d885f8c",
+      "seed": 2,
+      "selected_stage": "ppo-2",
+      "transitions": 9216000,
+      "videos": 7
+    }
+  ],
+  "total_training_jobs": 27,
+  "ppo_transitions": 27648000,
+  "videos": 118
+}

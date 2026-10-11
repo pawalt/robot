@@ -1,0 +1,35 @@
+[project]
+name = "robot"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.143.0",
+    "gymnasium>=1.4.0",
+    "imageio>=2.38.1",
+    "imageio-ffmpeg>=0.6.0",
+    "modal>=1.6.1",
+    "numpy>=2.5.4",
+    "pillow>=12.3.0",
+]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "playwright>=1.56,<2",
+]
+
+[project.optional-dependencies]
+acrobot = ["torch>=2.9"]
+feasibility = [
+    "casadi>=3.7",
+    "scipy>=1.18.1",
+]
+
+[[tool.uv.index]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch" }

@@ -1,0 +1,57 @@
+{
+  "evaluations": [
+    {
+      "name": "bottom",
+      "success": true,
+      "final_hold": 98.49999999999655,
+      "preKick": false,
+      "state": [
+        -3.13916478255884,
+        -0.009711541369915366,
+        2.5632914017666855e-13,
+        -7.303157986178861e-13
+      ]
+    },
+    {
+      "name": "release15",
+      "success": true,
+      "final_hold": 91.64499999999694,
+      "preKick": false,
+      "state": [
+        -3.1391647825588542,
+        -0.009711541369867405,
+        -4.930636213968597e-13,
+        1.496484083698272e-12
+      ]
+    },
+    {
+      "name": "drop",
+      "success": true,
+      "final_hold": 109.11249999999593,
+      "preKick": false,
+      "state": [
+        -3.1391647825595417,
+        -0.00971154136742669,
+        3.563792332583702e-13,
+        -1.1612849296775823e-12
+      ]
+    },
+    {
+      "name": "kick4",
+      "success": true,
+      "final_hold": 40.71749999999982,
+      "preKick": true,
+      "state": [
+        -3.139164782559549,
+        -0.009711541367316556,
+        -3.199233705692471e-14,
+        -3.1976443970650376e-14
+      ]
+    }
+  ],
+  "samples": 2000,
+  "max_torque_error": 8.365336653892719e-05,
+  "p99_torque_error": 1.6561634020095806e-05,
+  "max_physics_error": 8.881784197001252e-16,
+  "runtime": "Node JavaScript on Modal, same core used in browser"
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "threads": 1,
+    "environments": 64,
+    "rollout_transitions_per_second": 47921.81902659019,
+    "supervised_samples_per_second": 146052.4835962754,
+    "rollout_seconds": 0.26710171399999894,
+    "training_seconds": 1.4022356550000001
+  },
+  {
+    "threads": 1,
+    "environments": 256,
+    "rollout_transitions_per_second": 109229.474359331,
+    "supervised_samples_per_second": 125197.15717284926,
+    "rollout_seconds": 0.4687379510000014,
+    "training_seconds": 1.6358198909999988
+  },
+  {
+    "threads": 4,
+    "environments": 256,
+    "rollout_transitions_per_second": 82201.2908444388,
+    "supervised_samples_per_second": 165499.42125587762,
+    "rollout_seconds": 0.6228612649999992,
+    "training_seconds": 1.237466563
+  },
+  {
+    "threads": 4,
+    "environments": 512,
+    "rollout_transitions_per_second": 115889.86529332155,
+    "supervised_samples_per_second": 208529.0246626393,
+    "rollout_seconds": 0.8835975409999985,
+    "training_seconds": 0.9821174789999993
+  }
+]

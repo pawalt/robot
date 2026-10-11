@@ -1,0 +1,219 @@
+{
+  "id": "20261011T165814-20ab07d2",
+  "jobs": 30,
+  "transitions": 34560000,
+  "recordings": 30,
+  "sum_job_seconds": 7881.889566620001,
+  "rows": [
+    {
+      "arm": "unprotected",
+      "label": "No protection",
+      "mean_seconds": 192.530906647,
+      "parameters": 34050,
+      "final_audit": {
+        "balance": 0,
+        "suffix_2s": 0,
+        "bottom": 0,
+        "kick_0.1": 0,
+        "kick_0.5": 0
+      },
+      "audit": {
+        "balance": 192,
+        "suffix_2s": 0,
+        "bottom": 0,
+        "kick_0.1": 38,
+        "kick_0.5": 5
+      },
+      "selected_fine_approach": 0
+    },
+    {
+      "arm": "rehearsal",
+      "label": "LQR rehearsal",
+      "mean_seconds": 209.190253342,
+      "parameters": 34050,
+      "final_audit": {
+        "balance": 192,
+        "suffix_2s": 192,
+        "bottom": 0,
+        "kick_0.1": 56,
+        "kick_0.5": 7
+      },
+      "audit": {
+        "balance": 192,
+        "suffix_2s": 192,
+        "bottom": 0,
+        "kick_0.1": 54,
+        "kick_0.5": 5
+      },
+      "selected_fine_approach": 192
+    },
+    {
+      "arm": "distill",
+      "label": "Frozen neural distillation",
+      "mean_seconds": 189.17757154466668,
+      "parameters": 34050,
+      "final_audit": {
+        "balance": 192,
+        "suffix_2s": 190,
+        "bottom": 0,
+        "kick_0.1": 38,
+        "kick_0.5": 5
+      },
+      "audit": {
+        "balance": 192,
+        "suffix_2s": 192,
+        "bottom": 0,
+        "kick_0.1": 38,
+        "kick_0.5": 5
+      },
+      "selected_fine_approach": 192
+    },
+    {
+      "arm": "ewc",
+      "label": "EWC (tested setting)",
+      "mean_seconds": 226.09076619033334,
+      "parameters": 34050,
+      "final_audit": {
+        "balance": 0,
+        "suffix_2s": 0,
+        "bottom": 0,
+        "kick_0.1": 0,
+        "kick_0.5": 0
+      },
+      "audit": {
+        "balance": 192,
+        "suffix_2s": 0,
+        "bottom": 0,
+        "kick_0.1": 38,
+        "kick_0.5": 5
+      },
+      "selected_fine_approach": 0
+    },
+    {
+      "arm": "project",
+      "label": "Projected Adam step",
+      "mean_seconds": 209.56544810300002,
+      "parameters": 34050,
+      "final_audit": {
+        "balance": 128,
+        "suffix_2s": 128,
+        "bottom": 0,
+        "kick_0.1": 38,
+        "kick_0.5": 7
+      },
+      "audit": {
+        "balance": 190,
+        "suffix_2s": 192,
+        "bottom": 0,
+        "kick_0.1": 46,
+        "kick_0.5": 7
+      },
+      "selected_fine_approach": 192
+    },
+    {
+      "arm": "rollback",
+      "label": "Distillation + rollback",
+      "mean_seconds": 209.56654605766667,
+      "parameters": 34050,
+      "final_audit": {
+        "balance": 188,
+        "suffix_2s": 0,
+        "bottom": 0,
+        "kick_0.1": 35,
+        "kick_0.5": 5
+      },
+      "audit": {
+        "balance": 192,
+        "suffix_2s": 0,
+        "bottom": 0,
+        "kick_0.1": 38,
+        "kick_0.5": 5
+      },
+      "selected_fine_approach": 0
+    },
+    {
+      "arm": "experts",
+      "label": "Neural experts + gate",
+      "mean_seconds": 275.758109354,
+      "parameters": 68614,
+      "final_audit": {
+        "balance": 192,
+        "suffix_2s": 192,
+        "bottom": 0,
+        "kick_0.1": 36,
+        "kick_0.5": 5
+      },
+      "audit": {
+        "balance": 192,
+        "suffix_2s": 189,
+        "bottom": 0,
+        "kick_0.1": 35,
+        "kick_0.5": 5
+      },
+      "selected_fine_approach": 189
+    },
+    {
+      "arm": "wide256",
+      "label": "3\u00d7256 + distillation",
+      "mean_seconds": 273.3329807183334,
+      "parameters": 133634,
+      "final_audit": {
+        "balance": 185,
+        "suffix_2s": 181,
+        "bottom": 0,
+        "kick_0.1": 36,
+        "kick_0.5": 5
+      },
+      "audit": {
+        "balance": 192,
+        "suffix_2s": 192,
+        "bottom": 0,
+        "kick_0.1": 37,
+        "kick_0.5": 5
+      },
+      "selected_fine_approach": 192
+    },
+    {
+      "arm": "wide512",
+      "label": "3\u00d7512 + distillation",
+      "mean_seconds": 494.09964623700006,
+      "parameters": 529410,
+      "final_audit": {
+        "balance": 136,
+        "suffix_2s": 118,
+        "bottom": 0,
+        "kick_0.1": 24,
+        "kick_0.5": 2
+      },
+      "audit": {
+        "balance": 184,
+        "suffix_2s": 188,
+        "bottom": 0,
+        "kick_0.1": 37,
+        "kick_0.5": 4
+      },
+      "selected_fine_approach": 188
+    },
+    {
+      "arm": "residual256",
+      "label": "Residual 256 + distillation",
+      "mean_seconds": 347.9842940126667,
+      "parameters": 265218,
+      "final_audit": {
+        "balance": 192,
+        "suffix_2s": 192,
+        "bottom": 0,
+        "kick_0.1": 40,
+        "kick_0.5": 5
+      },
+      "audit": {
+        "balance": 192,
+        "suffix_2s": 192,
+        "bottom": 0,
+        "kick_0.1": 42,
+        "kick_0.5": 5
+      },
+      "selected_fine_approach": 192
+    }
+  ]
+}

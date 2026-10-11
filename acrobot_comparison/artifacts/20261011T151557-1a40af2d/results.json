@@ -1,0 +1,2786 @@
+[
+  {
+    "config": {
+      "method": "ppo",
+      "seed": 0,
+      "updates": 80,
+      "group_size": 8,
+      "groups": 8,
+      "horizon": 400,
+      "dt": 0.05,
+      "gamma": 1.0,
+      "gae_lambda": 0.95,
+      "policy_hidden": [
+        64,
+        64
+      ],
+      "observations": 7,
+      "policy_lr": 0.0003,
+      "critic_lr": 0.001,
+      "epochs": 4,
+      "minibatch": 1024,
+      "clip": 0.2,
+      "entropy_coefficient": 0.01,
+      "near_upright_start_probability": 0.75,
+      "training_steps": 2048000
+    },
+    "history": [
+      {
+        "steps": 0,
+        "training_seconds": 0.0,
+        "evaluation_seconds": 0.4035643640000002,
+        "balance": {
+          "mean_return": 6.497849137520198,
+          "mean_height": 0.517521114458715,
+          "upright_fraction": 0.017578125,
+          "mean_longest_hold": 0.3515625,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.821003629761561,
+          "mean_height": 0.5445236587624888,
+          "upright_fraction": 0.040078125,
+          "mean_longest_hold": 0.7921875,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.19677890277699212,
+          "mean_height": 0.009838945901173443,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.09911768409235133,
+          "mean_height": 0.004955884719221568,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        }
+      },
+      {
+        "steps": 256000,
+        "training_seconds": 5.924270428999999,
+        "evaluation_seconds": 0.8144013180000007,
+        "balance": {
+          "mean_return": 9.60399304793711,
+          "mean_height": 0.47687988683605254,
+          "upright_fraction": 0.038515625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.870154949794859,
+          "mean_height": 0.5482319870327682,
+          "upright_fraction": 0.03921875,
+          "mean_longest_hold": 0.7765625000000002,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.1747513184258367,
+          "mean_height": 0.008737566099934205,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.09778730428938262,
+          "mean_height": 0.004889365959707177,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 7.776061534881592,
+        "value_explained_variance": 0.9623246788978577,
+        "approx_kl": 0.0007512528618099168,
+        "entropy": 1.0877354204654694,
+        "clip_fraction": 9.765625e-06
+      },
+      {
+        "steps": 512000,
+        "training_seconds": 11.702066920999998,
+        "evaluation_seconds": 1.208582417999998,
+        "balance": {
+          "mean_return": 3.297389268771661,
+          "mean_height": 0.5801250050118612,
+          "upright_fraction": 0.01796875,
+          "mean_longest_hold": 0.359375,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.736773528301153,
+          "mean_height": 0.5572663446341904,
+          "upright_fraction": 0.037734375,
+          "mean_longest_hold": 0.7546875000000002,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.16991212175512552,
+          "mean_height": 0.008495606260856116,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.09775790515498453,
+          "mean_height": 0.0048878955778562765,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 9.588587760925293,
+        "value_explained_variance": 0.9879766702651978,
+        "approx_kl": 0.0017158616299275309,
+        "entropy": 1.0899654376506804,
+        "clip_fraction": 0.003447265625
+      },
+      {
+        "steps": 768000,
+        "training_seconds": 17.432273395999996,
+        "evaluation_seconds": 1.618502754999997,
+        "balance": {
+          "mean_return": 10.617190121917346,
+          "mean_height": 0.5540362834725324,
+          "upright_fraction": 0.038515625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.608392958234944,
+          "mean_height": 0.5332216578816528,
+          "upright_fraction": 0.037421875,
+          "mean_longest_hold": 0.7484375000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.1747513184258367,
+          "mean_height": 0.008737566099934205,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.08989034987068564,
+          "mean_height": 0.004494517686432585,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 7.971029281616211,
+        "value_explained_variance": 0.9919564723968506,
+        "approx_kl": 0.0014384057198185475,
+        "entropy": 1.0629569029808044,
+        "clip_fraction": 0.003935546875
+      },
+      {
+        "steps": 1024000,
+        "training_seconds": 23.101393157999983,
+        "evaluation_seconds": 2.0095006059999987,
+        "balance": {
+          "mean_return": 10.520590924913783,
+          "mean_height": 0.5434789675376249,
+          "upright_fraction": 0.038515625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.957653912150132,
+          "mean_height": 0.5560026046526876,
+          "upright_fraction": 0.038046875,
+          "mean_longest_hold": 0.7609375000000002,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.18358936845075935,
+          "mean_height": 0.009179468725739675,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.10081399052950912,
+          "mean_height": 0.005040699931990027,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 6.948511600494385,
+        "value_explained_variance": 0.9936725497245789,
+        "approx_kl": 0.0006615319970296696,
+        "entropy": 1.08222589969635,
+        "clip_fraction": 0.0
+      },
+      {
+        "steps": 1280000,
+        "training_seconds": 28.743601926999975,
+        "evaluation_seconds": 2.407819036000002,
+        "balance": {
+          "mean_return": 10.461002907050002,
+          "mean_height": 0.546621308715838,
+          "upright_fraction": 0.038515625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.61972666765468,
+          "mean_height": 0.5542841487773429,
+          "upright_fraction": 0.037109375,
+          "mean_longest_hold": 0.7421875000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.1747513184258367,
+          "mean_height": 0.008737566099934205,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.10963225983122651,
+          "mean_height": 0.005481614187602204,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 8.541556358337402,
+        "value_explained_variance": 0.9926679730415344,
+        "approx_kl": 0.00115861841943115,
+        "entropy": 1.0505131256580353,
+        "clip_fraction": 0.002578125
+      },
+      {
+        "steps": 1536000,
+        "training_seconds": 34.595904925999974,
+        "evaluation_seconds": 2.8104724719999963,
+        "balance": {
+          "mean_return": 10.828697400962625,
+          "mean_height": 0.5480674271109095,
+          "upright_fraction": 0.038515625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.670471735815788,
+          "mean_height": 0.5442728949027251,
+          "upright_fraction": 0.037421875,
+          "mean_longest_hold": 0.7359375000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.18151093225274245,
+          "mean_height": 0.009075546876312039,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.1049031047689762,
+          "mean_height": 0.00524515560776411,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 6.432937145233154,
+        "value_explained_variance": 0.9948393106460571,
+        "approx_kl": 0.002055048875627108,
+        "entropy": 1.0134149020910264,
+        "clip_fraction": 0.0017578125
+      },
+      {
+        "steps": 1792000,
+        "training_seconds": 40.430579678999976,
+        "evaluation_seconds": 3.2146799289999946,
+        "balance": {
+          "mean_return": 9.859027183553486,
+          "mean_height": 0.5489974551386169,
+          "upright_fraction": 0.038515625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.764123726074839,
+          "mean_height": 0.5588046696216317,
+          "upright_fraction": 0.03859375,
+          "mean_longest_hold": 0.7718750000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.1747513184258367,
+          "mean_height": 0.008737566099934205,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.10294690040638824,
+          "mean_height": 0.005147345700114073,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 7.948986053466797,
+        "value_explained_variance": 0.9964234232902527,
+        "approx_kl": 0.001496790554956533,
+        "entropy": 1.0314117062091828,
+        "clip_fraction": 0.00240234375
+      },
+      {
+        "steps": 2048000,
+        "training_seconds": 46.36120482899997,
+        "evaluation_seconds": 3.632711883999998,
+        "balance": {
+          "mean_return": 10.573276523130147,
+          "mean_height": 0.5366355848934912,
+          "upright_fraction": 0.038515625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.752523609795118,
+          "mean_height": 0.5497391371639061,
+          "upright_fraction": 0.03796875,
+          "mean_longest_hold": 0.7593750000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.1747513184258367,
+          "mean_height": 0.008737566099934205,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.11875941881750673,
+          "mean_height": 0.005937971736194037,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 7.731159687042236,
+        "value_explained_variance": 0.9971963763237,
+        "approx_kl": 0.0017547755787381903,
+        "entropy": 0.9707495898008347,
+        "clip_fraction": 0.005830078125
+      }
+    ],
+    "status": "complete",
+    "recordings": [
+      {
+        "mode": "balance",
+        "update": 0,
+        "steps": 0,
+        "video": "balance-0.mp4",
+        "poster": "balance-0.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "swingup",
+        "update": 0,
+        "steps": 0,
+        "video": "swingup-0.mp4",
+        "poster": "swingup-0.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "balance",
+        "update": 40,
+        "steps": 1024000,
+        "video": "balance-40.mp4",
+        "poster": "balance-40.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "swingup",
+        "update": 40,
+        "steps": 1024000,
+        "video": "swingup-40.mp4",
+        "poster": "swingup-40.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "balance",
+        "update": 80,
+        "steps": 2048000,
+        "video": "balance-80.mp4",
+        "poster": "balance-80.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "swingup",
+        "update": 80,
+        "steps": 2048000,
+        "video": "swingup-80.mp4",
+        "poster": "swingup-80.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      }
+    ]
+  },
+  {
+    "config": {
+      "method": "ppo",
+      "seed": 1,
+      "updates": 80,
+      "group_size": 8,
+      "groups": 8,
+      "horizon": 400,
+      "dt": 0.05,
+      "gamma": 1.0,
+      "gae_lambda": 0.95,
+      "policy_hidden": [
+        64,
+        64
+      ],
+      "observations": 7,
+      "policy_lr": 0.0003,
+      "critic_lr": 0.001,
+      "epochs": 4,
+      "minibatch": 1024,
+      "clip": 0.2,
+      "entropy_coefficient": 0.01,
+      "near_upright_start_probability": 0.75,
+      "training_steps": 2048000
+    },
+    "history": [
+      {
+        "steps": 0,
+        "training_seconds": 0.0,
+        "evaluation_seconds": 0.6088915730000002,
+        "balance": {
+          "mean_return": 10.19043085027549,
+          "mean_height": 0.5396363073881113,
+          "upright_fraction": 0.038984375,
+          "mean_longest_hold": 0.7796875000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.787314394896638,
+          "mean_height": 0.544166312778506,
+          "upright_fraction": 0.040078125,
+          "mean_longest_hold": 0.7921875,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.18151093225274245,
+          "mean_height": 0.009075546876312039,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.09875101626916,
+          "mean_height": 0.0049375513483353424,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        }
+      },
+      {
+        "steps": 256000,
+        "training_seconds": 7.743649842000001,
+        "evaluation_seconds": 1.224341624,
+        "balance": {
+          "mean_return": -6.448279743268491,
+          "mean_height": 0.5574855383556202,
+          "upright_fraction": 0.01796875,
+          "mean_longest_hold": 0.359375,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.799269317973145,
+          "mean_height": 0.5610102987392974,
+          "upright_fraction": 0.037890625,
+          "mean_longest_hold": 0.7578125000000002,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.1747513184258367,
+          "mean_height": 0.008737566099934205,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.10255772181543037,
+          "mean_height": 0.005127886937325239,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 7.661832809448242,
+        "value_explained_variance": 0.958650529384613,
+        "approx_kl": 0.0009486393257975578,
+        "entropy": 1.0947372663021087,
+        "clip_fraction": 0.0
+      },
+      {
+        "steps": 512000,
+        "training_seconds": 15.471189542999994,
+        "evaluation_seconds": 1.8333368499999976,
+        "balance": {
+          "mean_return": 8.908071306121906,
+          "mean_height": 0.5443387771748647,
+          "upright_fraction": 0.038515625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.659523987268418,
+          "mean_height": 0.5478635940112208,
+          "upright_fraction": 0.0378125,
+          "mean_longest_hold": 0.7546875000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.1747513184258367,
+          "mean_height": 0.008737566099934205,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.09892840464717459,
+          "mean_height": 0.004946420648550364,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 4.170703887939453,
+        "value_explained_variance": 0.9895806908607483,
+        "approx_kl": 0.0006355822639307007,
+        "entropy": 1.0888663995265961,
+        "clip_fraction": 0.000302734375
+      },
+      {
+        "steps": 768000,
+        "training_seconds": 23.141565445999994,
+        "evaluation_seconds": 2.4424139699999996,
+        "balance": {
+          "mean_return": 9.522920354857831,
+          "mean_height": 0.6121139999731067,
+          "upright_fraction": 0.016171875,
+          "mean_longest_hold": 0.3234375,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.536979736272778,
+          "mean_height": 0.547957054090988,
+          "upright_fraction": 0.03828125,
+          "mean_longest_hold": 0.7656250000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.18151093225274245,
+          "mean_height": 0.009075546876312039,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.10792347256715851,
+          "mean_height": 0.005396174667399079,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 5.197690486907959,
+        "value_explained_variance": 0.9944299459457397,
+        "approx_kl": 0.0014706868142820894,
+        "entropy": 1.0779712903499603,
+        "clip_fraction": 0.0001171875
+      },
+      {
+        "steps": 1024000,
+        "training_seconds": 30.808091933999997,
+        "evaluation_seconds": 3.0508533739999946,
+        "balance": {
+          "mean_return": 9.25682122733451,
+          "mean_height": 0.6166882852392851,
+          "upright_fraction": 0.019453125,
+          "mean_longest_hold": 0.37656249999999997,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.439859835439405,
+          "mean_height": 0.5410341917702197,
+          "upright_fraction": 0.03484375,
+          "mean_longest_hold": 0.6968750000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.1747513184258367,
+          "mean_height": 0.008737566099934205,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.09962657733865467,
+          "mean_height": 0.0049813295502806,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 9.026307106018066,
+        "value_explained_variance": 0.9946566224098206,
+        "approx_kl": 0.0007824943220475688,
+        "entropy": 1.0670905470848084,
+        "clip_fraction": 0.0
+      },
+      {
+        "steps": 1280000,
+        "training_seconds": 38.553276354,
+        "evaluation_seconds": 3.659804775999997,
+        "balance": {
+          "mean_return": 10.272924057533142,
+          "mean_height": 0.5446128047870671,
+          "upright_fraction": 0.038515625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.649970640190482,
+          "mean_height": 0.5423689498144767,
+          "upright_fraction": 0.0378125,
+          "mean_longest_hold": 0.7562500000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.09305020314353704,
+          "mean_height": 0.00465251019769311,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.09268707168977623,
+          "mean_height": 0.004634353922523631,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 8.204651832580566,
+        "value_explained_variance": 0.9952251315116882,
+        "approx_kl": 0.0006804995110724121,
+        "entropy": 1.0583078932762147,
+        "clip_fraction": 0.0
+      },
+      {
+        "steps": 1536000,
+        "training_seconds": 46.264967074999994,
+        "evaluation_seconds": 4.281800727999996,
+        "balance": {
+          "mean_return": 10.99004001544337,
+          "mean_height": 0.5648260146507821,
+          "upright_fraction": 0.038515625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.357577347157424,
+          "mean_height": 0.5274830662361635,
+          "upright_fraction": 0.0359375,
+          "mean_longest_hold": 0.7187500000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.06754534222724395,
+          "mean_height": 0.003377267117303505,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.09672226836763466,
+          "mean_height": 0.004836113776241428,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 3.945530652999878,
+        "value_explained_variance": 0.9952373504638672,
+        "approx_kl": 0.0011782440368551762,
+        "entropy": 1.0727356815338134,
+        "clip_fraction": 0.002919921875
+      },
+      {
+        "steps": 1792000,
+        "training_seconds": 53.973904773999955,
+        "evaluation_seconds": 4.895404567000003,
+        "balance": {
+          "mean_return": 10.785238597951073,
+          "mean_height": 0.5506288158807067,
+          "upright_fraction": 0.038515625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.578021773249922,
+          "mean_height": 0.5395051303133591,
+          "upright_fraction": 0.037109375,
+          "mean_longest_hold": 0.7187500000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.1747513184258367,
+          "mean_height": 0.008737566099934205,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.11106822802999812,
+          "mean_height": 0.00555341227833704,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 8.948936462402344,
+        "value_explained_variance": 0.9962102770805359,
+        "approx_kl": 0.0017335059522883966,
+        "entropy": 1.0327337682247162,
+        "clip_fraction": 0.00689453125
+      },
+      {
+        "steps": 2048000,
+        "training_seconds": 61.69757937299996,
+        "evaluation_seconds": 5.505442274000006,
+        "balance": {
+          "mean_return": 10.841635853365595,
+          "mean_height": 0.5549660112108082,
+          "upright_fraction": 0.038515625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.58473743280004,
+          "mean_height": 0.5370395155830429,
+          "upright_fraction": 0.037734375,
+          "mean_longest_hold": 0.7515625000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.1747513184258367,
+          "mean_height": 0.008737566099934205,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.10739627873100827,
+          "mean_height": 0.0053698146858672914,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 9.344983100891113,
+        "value_explained_variance": 0.9948983192443848,
+        "approx_kl": 0.0025828405999345706,
+        "entropy": 0.9743007373809814,
+        "clip_fraction": 0.020478515625
+      }
+    ],
+    "status": "complete",
+    "recordings": [
+      {
+        "mode": "balance",
+        "update": 0,
+        "steps": 0,
+        "video": "balance-0.mp4",
+        "poster": "balance-0.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "swingup",
+        "update": 0,
+        "steps": 0,
+        "video": "swingup-0.mp4",
+        "poster": "swingup-0.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "balance",
+        "update": 40,
+        "steps": 1024000,
+        "video": "balance-40.mp4",
+        "poster": "balance-40.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "swingup",
+        "update": 40,
+        "steps": 1024000,
+        "video": "swingup-40.mp4",
+        "poster": "swingup-40.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "balance",
+        "update": 80,
+        "steps": 2048000,
+        "video": "balance-80.mp4",
+        "poster": "balance-80.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "swingup",
+        "update": 80,
+        "steps": 2048000,
+        "video": "swingup-80.mp4",
+        "poster": "swingup-80.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      }
+    ]
+  },
+  {
+    "config": {
+      "method": "ppo",
+      "seed": 2,
+      "updates": 80,
+      "group_size": 8,
+      "groups": 8,
+      "horizon": 400,
+      "dt": 0.05,
+      "gamma": 1.0,
+      "gae_lambda": 0.95,
+      "policy_hidden": [
+        64,
+        64
+      ],
+      "observations": 7,
+      "policy_lr": 0.0003,
+      "critic_lr": 0.001,
+      "epochs": 4,
+      "minibatch": 1024,
+      "clip": 0.2,
+      "entropy_coefficient": 0.01,
+      "near_upright_start_probability": 0.75,
+      "training_steps": 2048000
+    },
+    "history": [
+      {
+        "steps": 0,
+        "training_seconds": 0.0,
+        "evaluation_seconds": 0.5714269249999999,
+        "balance": {
+          "mean_return": 9.91182131014495,
+          "mean_height": 0.5431275675641782,
+          "upright_fraction": 0.018828125,
+          "mean_longest_hold": 0.37656249999999997,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.808188536533388,
+          "mean_height": 0.5440121672885131,
+          "upright_fraction": 0.040078125,
+          "mean_longest_hold": 0.7921875,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.18161972130178003,
+          "mean_height": 0.009080986350769286,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.09934894380737996,
+          "mean_height": 0.004967447695076951,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        }
+      },
+      {
+        "steps": 256000,
+        "training_seconds": 7.026094585000004,
+        "evaluation_seconds": 1.149213166,
+        "balance": {
+          "mean_return": 10.733592761407001,
+          "mean_height": 0.5344786571469865,
+          "upright_fraction": 0.038515625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.638136157866933,
+          "mean_height": 0.5399558128328336,
+          "upright_fraction": 0.038671875,
+          "mean_longest_hold": 0.7578125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.18151093225274245,
+          "mean_height": 0.009075546876312039,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.10072275176963988,
+          "mean_height": 0.005036137956746694,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 6.805173397064209,
+        "value_explained_variance": 0.9584938287734985,
+        "approx_kl": 0.004006282752961852,
+        "entropy": 1.0876826381683349,
+        "clip_fraction": 0.008779296875
+      },
+      {
+        "steps": 512000,
+        "training_seconds": 13.949571200000001,
+        "evaluation_seconds": 1.7209457519999996,
+        "balance": {
+          "mean_return": 10.521620076264444,
+          "mean_height": 0.5633304218027829,
+          "upright_fraction": 0.038984375,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.698505795004268,
+          "mean_height": 0.5448619311942079,
+          "upright_fraction": 0.039609375,
+          "mean_longest_hold": 0.7828125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.014648061770322712,
+          "mean_height": 0.0007324030885395863,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.07262097037176475,
+          "mean_height": 0.003631048612525294,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 8.39354133605957,
+        "value_explained_variance": 0.9852356314659119,
+        "approx_kl": 0.0039422567025758325,
+        "entropy": 0.9986719459295272,
+        "clip_fraction": 0.015830078125
+      },
+      {
+        "steps": 768000,
+        "training_seconds": 20.876140727000003,
+        "evaluation_seconds": 2.299096651,
+        "balance": {
+          "mean_return": 8.544440969806093,
+          "mean_height": 0.5318391263783209,
+          "upright_fraction": 0.038515625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.36195373004755,
+          "mean_height": 0.5576123559437502,
+          "upright_fraction": 0.037890625,
+          "mean_longest_hold": 0.7578125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.014648061770322712,
+          "mean_height": 0.0007324030885395863,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.09098358096400298,
+          "mean_height": 0.00454917940062398,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 8.692753791809082,
+        "value_explained_variance": 0.9931042194366455,
+        "approx_kl": 0.0012903071683831513,
+        "entropy": 0.9940239888429642,
+        "clip_fraction": 0.0042578125
+      },
+      {
+        "steps": 1024000,
+        "training_seconds": 27.875150316,
+        "evaluation_seconds": 2.8809355709999958,
+        "balance": {
+          "mean_return": 9.45758417584382,
+          "mean_height": 0.5623047790238891,
+          "upright_fraction": 0.038515625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.710142863442643,
+          "mean_height": 0.5519764872017359,
+          "upright_fraction": 0.03796875,
+          "mean_longest_hold": 0.7593750000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.1747513184258367,
+          "mean_height": 0.008737566099934205,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.09706698389142061,
+          "mean_height": 0.004853349552994813,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 7.787124156951904,
+        "value_explained_variance": 0.9941534996032715,
+        "approx_kl": 0.0013304395345039666,
+        "entropy": 1.0282686960697174,
+        "clip_fraction": 0.002158203125
+      },
+      {
+        "steps": 1280000,
+        "training_seconds": 34.85643823599999,
+        "evaluation_seconds": 3.465456353999998,
+        "balance": {
+          "mean_return": 7.622207954857102,
+          "mean_height": 0.5306170803333164,
+          "upright_fraction": 0.038515625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.328897232883689,
+          "mean_height": 0.5375083144331816,
+          "upright_fraction": 0.037265625,
+          "mean_longest_hold": 0.7453125000000002,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.18151093225274245,
+          "mean_height": 0.009075546876312039,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.10700272222271343,
+          "mean_height": 0.0053501367634747245,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 10.232707023620605,
+        "value_explained_variance": 0.9928002953529358,
+        "approx_kl": 0.0013580160483252256,
+        "entropy": 0.9524857634305954,
+        "clip_fraction": 0.001923828125
+      },
+      {
+        "steps": 1536000,
+        "training_seconds": 41.85145763099999,
+        "evaluation_seconds": 4.058020882999998,
+        "balance": {
+          "mean_return": 10.144201085740194,
+          "mean_height": 0.5223451239663269,
+          "upright_fraction": 0.038515625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.650526652348649,
+          "mean_height": 0.5423664520192456,
+          "upright_fraction": 0.03828125,
+          "mean_longest_hold": 0.7656250000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.18151093225274245,
+          "mean_height": 0.009075546876312039,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.10602740421694418,
+          "mean_height": 0.0053013706779565205,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 7.880171298980713,
+        "value_explained_variance": 0.9955830574035645,
+        "approx_kl": 0.0017596983525436372,
+        "entropy": 0.983981848359108,
+        "clip_fraction": 0.00265625
+      },
+      {
+        "steps": 1792000,
+        "training_seconds": 48.76926184300001,
+        "evaluation_seconds": 4.638453010000007,
+        "balance": {
+          "mean_return": 8.811283262073061,
+          "mean_height": 0.563786227467231,
+          "upright_fraction": 0.038515625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.640627494443875,
+          "mean_height": 0.5563657200845032,
+          "upright_fraction": 0.03765625,
+          "mean_longest_hold": 0.7531250000000002,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.04575251715952731,
+          "mean_height": 0.002287625858920409,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.09775831861175172,
+          "mean_height": 0.004887916422066996,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 5.2640700340271,
+        "value_explained_variance": 0.9970093369483948,
+        "approx_kl": 0.003930033892975189,
+        "entropy": 1.0339232361316681,
+        "clip_fraction": 0.005400390625
+      },
+      {
+        "steps": 2048000,
+        "training_seconds": 55.77361296300002,
+        "evaluation_seconds": 5.219267838000008,
+        "balance": {
+          "mean_return": 10.79397901878351,
+          "mean_height": 0.545718008182704,
+          "upright_fraction": 0.038515625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.811346567389645,
+          "mean_height": 0.5487686240474697,
+          "upright_fraction": 0.03828125,
+          "mean_longest_hold": 0.765625,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.18151093225274245,
+          "mean_height": 0.009075546876312039,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.10096590435715372,
+          "mean_height": 0.005048295684050613,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 10.485260009765625,
+        "value_explained_variance": 0.9957959651947021,
+        "approx_kl": 0.0016427883954020217,
+        "entropy": 0.9814521861076355,
+        "clip_fraction": 0.007236328125
+      }
+    ],
+    "status": "complete",
+    "recordings": [
+      {
+        "mode": "balance",
+        "update": 0,
+        "steps": 0,
+        "video": "balance-0.mp4",
+        "poster": "balance-0.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "swingup",
+        "update": 0,
+        "steps": 0,
+        "video": "swingup-0.mp4",
+        "poster": "swingup-0.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "balance",
+        "update": 40,
+        "steps": 1024000,
+        "video": "balance-40.mp4",
+        "poster": "balance-40.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "swingup",
+        "update": 40,
+        "steps": 1024000,
+        "video": "swingup-40.mp4",
+        "poster": "swingup-40.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "balance",
+        "update": 80,
+        "steps": 2048000,
+        "video": "balance-80.mp4",
+        "poster": "balance-80.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "swingup",
+        "update": 80,
+        "steps": 2048000,
+        "video": "swingup-80.mp4",
+        "poster": "swingup-80.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      }
+    ]
+  },
+  {
+    "config": {
+      "method": "grouped",
+      "seed": 0,
+      "updates": 80,
+      "group_size": 8,
+      "groups": 8,
+      "horizon": 400,
+      "dt": 0.05,
+      "gamma": 1.0,
+      "gae_lambda": 0.95,
+      "policy_hidden": [
+        64,
+        64
+      ],
+      "observations": 7,
+      "policy_lr": 0.0003,
+      "critic_lr": 0.001,
+      "epochs": 4,
+      "minibatch": 1024,
+      "clip": 0.2,
+      "entropy_coefficient": 0.01,
+      "near_upright_start_probability": 0.75,
+      "training_steps": 2048000
+    },
+    "history": [
+      {
+        "steps": 0,
+        "training_seconds": 0.0,
+        "evaluation_seconds": 0.5676085370000008,
+        "balance": {
+          "mean_return": 6.497849137520198,
+          "mean_height": 0.517521114458715,
+          "upright_fraction": 0.017578125,
+          "mean_longest_hold": 0.3515625,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.821003629761561,
+          "mean_height": 0.5445236587624888,
+          "upright_fraction": 0.040078125,
+          "mean_longest_hold": 0.7921875,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.19677890277699212,
+          "mean_height": 0.009838945901173443,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.09911768409235133,
+          "mean_height": 0.004955884719221568,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        }
+      },
+      {
+        "steps": 256000,
+        "training_seconds": 4.836982310999997,
+        "evaluation_seconds": 1.1275938500000011,
+        "balance": {
+          "mean_return": 8.987227435920063,
+          "mean_height": 0.4825439402031985,
+          "upright_fraction": 0.01796875,
+          "mean_longest_hold": 0.359375,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.517294757941013,
+          "mean_height": 0.5407632187333761,
+          "upright_fraction": 0.036015625,
+          "mean_longest_hold": 0.7203125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.18151093225274245,
+          "mean_height": 0.009075546876312039,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.10327186535765134,
+          "mean_height": 0.005163593673725185,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 7.818109512329102,
+        "zero_variance_group_fraction": 0.0,
+        "approx_kl": 0.0005384914553724229,
+        "entropy": 1.0767545092105866,
+        "clip_fraction": 0.0
+      },
+      {
+        "steps": 512000,
+        "training_seconds": 9.712007946000003,
+        "evaluation_seconds": 1.6842502070000025,
+        "balance": {
+          "mean_return": 9.719918573637395,
+          "mean_height": 0.5289177860484249,
+          "upright_fraction": 0.01796875,
+          "mean_longest_hold": 0.359375,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.885850112504368,
+          "mean_height": 0.5518796150236651,
+          "upright_fraction": 0.0390625,
+          "mean_longest_hold": 0.7750000000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.1747513184258367,
+          "mean_height": 0.008737566099934205,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.09674529636040718,
+          "mean_height": 0.004837265329875518,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 9.52092456817627,
+        "zero_variance_group_fraction": 0.0,
+        "approx_kl": 0.001921615504543297,
+        "entropy": 1.0783965849876405,
+        "clip_fraction": 0.003828125
+      },
+      {
+        "steps": 768000,
+        "training_seconds": 14.551488549999998,
+        "evaluation_seconds": 2.2452912000000014,
+        "balance": {
+          "mean_return": 9.341690761400962,
+          "mean_height": 0.48260363592492583,
+          "upright_fraction": 0.018828125,
+          "mean_longest_hold": 0.37656249999999997,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.486027862242285,
+          "mean_height": 0.5254139217658789,
+          "upright_fraction": 0.036640625,
+          "mean_longest_hold": 0.7328125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.1747513184258367,
+          "mean_height": 0.008737566099934205,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.09608660364200744,
+          "mean_height": 0.004804330996045692,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 7.751870155334473,
+        "zero_variance_group_fraction": 0.0,
+        "approx_kl": 0.002042493288172409,
+        "entropy": 1.059085603952408,
+        "clip_fraction": 0.007236328125
+      },
+      {
+        "steps": 1024000,
+        "training_seconds": 19.398887441999996,
+        "evaluation_seconds": 2.8029045000000083,
+        "balance": {
+          "mean_return": 8.793396100258434,
+          "mean_height": 0.4377846801123764,
+          "upright_fraction": 0.018828125,
+          "mean_longest_hold": 0.37656249999999997,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.782430785567378,
+          "mean_height": 0.5359555326811521,
+          "upright_fraction": 0.03828125,
+          "mean_longest_hold": 0.7500000000000002,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.2676625550116849,
+          "mean_height": 0.013383133575419195,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.09524331574551115,
+          "mean_height": 0.004762166111246212,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 6.821840763092041,
+        "zero_variance_group_fraction": 0.0,
+        "approx_kl": 0.0005586422618944198,
+        "entropy": 1.0852334773540497,
+        "clip_fraction": 0.0
+      },
+      {
+        "steps": 1280000,
+        "training_seconds": 24.233802137999987,
+        "evaluation_seconds": 3.360968445000009,
+        "balance": {
+          "mean_return": 8.121700800878603,
+          "mean_height": 0.6057574466469573,
+          "upright_fraction": 0.01796875,
+          "mean_longest_hold": 0.359375,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.92223266419951,
+          "mean_height": 0.5697269384284982,
+          "upright_fraction": 0.03796875,
+          "mean_longest_hold": 0.7593750000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.014648061770322712,
+          "mean_height": 0.0007324030885395863,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.08265370681241724,
+          "mean_height": 0.004132685666242284,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 8.520241737365723,
+        "zero_variance_group_fraction": 0.0,
+        "approx_kl": 0.0019913109904155135,
+        "entropy": 1.0647827315330505,
+        "clip_fraction": 0.004990234375
+      },
+      {
+        "steps": 1536000,
+        "training_seconds": 29.07813428799998,
+        "evaluation_seconds": 3.9198242140000064,
+        "balance": {
+          "mean_return": 10.123270908934305,
+          "mean_height": 0.4744374561736915,
+          "upright_fraction": 0.038515625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.842232506567505,
+          "mean_height": 0.5357613959378533,
+          "upright_fraction": 0.039765625,
+          "mean_longest_hold": 0.7953125000000002,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.014648061770322712,
+          "mean_height": 0.0007324030885395863,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.08952840428588454,
+          "mean_height": 0.004476420605708218,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 6.362435817718506,
+        "zero_variance_group_fraction": 0.0,
+        "approx_kl": 0.0018625692516798153,
+        "entropy": 1.0890946364402772,
+        "clip_fraction": 0.001845703125
+      },
+      {
+        "steps": 1792000,
+        "training_seconds": 33.91750911599997,
+        "evaluation_seconds": 4.479984856000006,
+        "balance": {
+          "mean_return": 8.898432709730535,
+          "mean_height": 0.5463661221394619,
+          "upright_fraction": 0.01796875,
+          "mean_longest_hold": 0.359375,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.842847978932756,
+          "mean_height": 0.5441206116197538,
+          "upright_fraction": 0.036796875,
+          "mean_longest_hold": 0.7359375000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.18151093225274245,
+          "mean_height": 0.009075546876312039,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.09556634407970617,
+          "mean_height": 0.004778317555392129,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 7.826910018920898,
+        "zero_variance_group_fraction": 0.0,
+        "approx_kl": 0.001338848758605309,
+        "entropy": 1.0764272403717041,
+        "clip_fraction": 0.003193359375
+      },
+      {
+        "steps": 2048000,
+        "training_seconds": 38.81880033899997,
+        "evaluation_seconds": 5.045281096000008,
+        "balance": {
+          "mean_return": 10.913754295698311,
+          "mean_height": 0.49089296392232895,
+          "upright_fraction": 0.051171875,
+          "mean_longest_hold": 1.0218750000000003,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.850478635436781,
+          "mean_height": 0.5338490879250218,
+          "upright_fraction": 0.0403125,
+          "mean_longest_hold": 0.8015625000000002,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.012230178536164774,
+          "mean_height": 0.0006115089268124005,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.09829125519503001,
+          "mean_height": 0.004914563262664092,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 7.939725875854492,
+        "zero_variance_group_fraction": 0.0,
+        "approx_kl": 0.0015650714689400048,
+        "entropy": 1.066395002603531,
+        "clip_fraction": 0.00150390625
+      }
+    ],
+    "status": "complete",
+    "recordings": [
+      {
+        "mode": "balance",
+        "update": 0,
+        "steps": 0,
+        "video": "balance-0.mp4",
+        "poster": "balance-0.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "swingup",
+        "update": 0,
+        "steps": 0,
+        "video": "swingup-0.mp4",
+        "poster": "swingup-0.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "balance",
+        "update": 40,
+        "steps": 1024000,
+        "video": "balance-40.mp4",
+        "poster": "balance-40.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "swingup",
+        "update": 40,
+        "steps": 1024000,
+        "video": "swingup-40.mp4",
+        "poster": "swingup-40.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "balance",
+        "update": 80,
+        "steps": 2048000,
+        "video": "balance-80.mp4",
+        "poster": "balance-80.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "swingup",
+        "update": 80,
+        "steps": 2048000,
+        "video": "swingup-80.mp4",
+        "poster": "swingup-80.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      }
+    ]
+  },
+  {
+    "config": {
+      "method": "grouped",
+      "seed": 1,
+      "updates": 80,
+      "group_size": 8,
+      "groups": 8,
+      "horizon": 400,
+      "dt": 0.05,
+      "gamma": 1.0,
+      "gae_lambda": 0.95,
+      "policy_hidden": [
+        64,
+        64
+      ],
+      "observations": 7,
+      "policy_lr": 0.0003,
+      "critic_lr": 0.001,
+      "epochs": 4,
+      "minibatch": 1024,
+      "clip": 0.2,
+      "entropy_coefficient": 0.01,
+      "near_upright_start_probability": 0.75,
+      "training_steps": 2048000
+    },
+    "history": [
+      {
+        "steps": 0,
+        "training_seconds": 0.0,
+        "evaluation_seconds": 0.6920354139999993,
+        "balance": {
+          "mean_return": 10.19043085027549,
+          "mean_height": 0.5396363073881113,
+          "upright_fraction": 0.038984375,
+          "mean_longest_hold": 0.7796875000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.787314394896638,
+          "mean_height": 0.544166312778506,
+          "upright_fraction": 0.040078125,
+          "mean_longest_hold": 0.7921875,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.18151093225274245,
+          "mean_height": 0.009075546876312039,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.09875101626916,
+          "mean_height": 0.0049375513483353424,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        }
+      },
+      {
+        "steps": 256000,
+        "training_seconds": 5.735702278,
+        "evaluation_seconds": 1.3610392269999991,
+        "balance": {
+          "mean_return": 9.903960957918486,
+          "mean_height": 0.47954108690480113,
+          "upright_fraction": 0.038515625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.8186294205306,
+          "mean_height": 0.5427584220586862,
+          "upright_fraction": 0.037890625,
+          "mean_longest_hold": 0.7546875000000002,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.1747513184258367,
+          "mean_height": 0.008737566099934205,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.09045290148181775,
+          "mean_height": 0.004522645301722725,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 7.7668914794921875,
+        "zero_variance_group_fraction": 0.0,
+        "approx_kl": 0.0024668541457504036,
+        "entropy": 1.082223424911499,
+        "clip_fraction": 0.00853515625
+      },
+      {
+        "steps": 512000,
+        "training_seconds": 11.463069412999998,
+        "evaluation_seconds": 2.033125208999998,
+        "balance": {
+          "mean_return": 10.192712839218213,
+          "mean_height": 0.5092748782200048,
+          "upright_fraction": 0.038515625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.811880605414846,
+          "mean_height": 0.5421327328823817,
+          "upright_fraction": 0.037734375,
+          "mean_longest_hold": 0.753125,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.1287645366820196,
+          "mean_height": 0.006438226881490431,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.09134300681745583,
+          "mean_height": 0.0045671505288462635,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 4.102468490600586,
+        "zero_variance_group_fraction": 0.0,
+        "approx_kl": 0.0030957317934371532,
+        "entropy": 1.0702208435535432,
+        "clip_fraction": 0.0095703125
+      },
+      {
+        "steps": 768000,
+        "training_seconds": 17.210197891,
+        "evaluation_seconds": 2.7003628269999993,
+        "balance": {
+          "mean_return": 11.05164277495766,
+          "mean_height": 0.5435830982558281,
+          "upright_fraction": 0.0390625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.844210030907558,
+          "mean_height": 0.5503803184096918,
+          "upright_fraction": 0.03765625,
+          "mean_longest_hold": 0.753125,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.17663459774956874,
+          "mean_height": 0.00883173009558421,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.09968303913615703,
+          "mean_height": 0.0049841525817553925,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 5.110506534576416,
+        "zero_variance_group_fraction": 0.0,
+        "approx_kl": 0.001678319623460993,
+        "entropy": 1.0507648754119874,
+        "clip_fraction": 0.005009765625
+      },
+      {
+        "steps": 1024000,
+        "training_seconds": 23.195814771000016,
+        "evaluation_seconds": 3.4101333419999946,
+        "balance": {
+          "mean_return": 10.539310814872103,
+          "mean_height": 0.5017499536575627,
+          "upright_fraction": 0.0390625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.775258747823752,
+          "mean_height": 0.5492700484291126,
+          "upright_fraction": 0.036328125,
+          "mean_longest_hold": 0.7265625000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.161464983846356,
+          "mean_height": 0.008073249377283058,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.09629892854219833,
+          "mean_height": 0.004814946719382409,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 9.458601951599121,
+        "zero_variance_group_fraction": 0.0,
+        "approx_kl": 0.0008989437675336376,
+        "entropy": 1.062485510110855,
+        "clip_fraction": 4.8828125e-05
+      },
+      {
+        "steps": 1280000,
+        "training_seconds": 29.344973523000007,
+        "evaluation_seconds": 4.099546681999996,
+        "balance": {
+          "mean_return": 10.803627615041693,
+          "mean_height": 0.519394794197172,
+          "upright_fraction": 0.0390625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.810803482252402,
+          "mean_height": 0.5338620973966954,
+          "upright_fraction": 0.040625,
+          "mean_longest_hold": 0.7859375000000002,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.18151093225274245,
+          "mean_height": 0.009075546876312039,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.09523993764603791,
+          "mean_height": 0.004761997223543861,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 8.432939529418945,
+        "zero_variance_group_fraction": 0.0,
+        "approx_kl": 0.0017398279072949664,
+        "entropy": 1.0658116662502288,
+        "clip_fraction": 0.0032421875
+      },
+      {
+        "steps": 1536000,
+        "training_seconds": 35.253523704,
+        "evaluation_seconds": 4.793652339999994,
+        "balance": {
+          "mean_return": 10.751695684331395,
+          "mean_height": 0.5366069716316902,
+          "upright_fraction": 0.038515625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.8065105533527,
+          "mean_height": 0.5415950643137353,
+          "upright_fraction": 0.037421875,
+          "mean_longest_hold": 0.7437500000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.17958468459571558,
+          "mean_height": 0.008979234469870107,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.09908722309955686,
+          "mean_height": 0.004954361662065719,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 3.8476481437683105,
+        "zero_variance_group_fraction": 0.0,
+        "approx_kl": 0.002935641095391475,
+        "entropy": 1.0556445014476776,
+        "clip_fraction": 0.010087890625
+      },
+      {
+        "steps": 1792000,
+        "training_seconds": 41.30011939500003,
+        "evaluation_seconds": 5.50826683199999,
+        "balance": {
+          "mean_return": 10.60235027904739,
+          "mean_height": 0.5076637892206,
+          "upright_fraction": 0.038515625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.619656014640185,
+          "mean_height": 0.5292949455090428,
+          "upright_fraction": 0.037578125,
+          "mean_longest_hold": 0.7515625000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.17899372945065223,
+          "mean_height": 0.008949686709650408,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.09981112992763919,
+          "mean_height": 0.004990556730501107,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 9.204851150512695,
+        "zero_variance_group_fraction": 0.0,
+        "approx_kl": 0.003517089081578888,
+        "entropy": 1.0105908226966858,
+        "clip_fraction": 0.012705078125
+      },
+      {
+        "steps": 2048000,
+        "training_seconds": 47.269731041000036,
+        "evaluation_seconds": 6.189196171999981,
+        "balance": {
+          "mean_return": 7.3858190615551305,
+          "mean_height": 0.6030000377067464,
+          "upright_fraction": 0.018828125,
+          "mean_longest_hold": 0.37656249999999997,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.362203767710469,
+          "mean_height": 0.5278882379952773,
+          "upright_fraction": 0.035078125,
+          "mean_longest_hold": 0.7015625000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.18151093225274245,
+          "mean_height": 0.009075546876312039,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.09869213804946103,
+          "mean_height": 0.004934607332948026,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 9.407354354858398,
+        "zero_variance_group_fraction": 0.0,
+        "approx_kl": 0.0021262279944494365,
+        "entropy": 1.069696477651596,
+        "clip_fraction": 0.00802734375
+      }
+    ],
+    "status": "complete",
+    "recordings": [
+      {
+        "mode": "balance",
+        "update": 0,
+        "steps": 0,
+        "video": "balance-0.mp4",
+        "poster": "balance-0.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "swingup",
+        "update": 0,
+        "steps": 0,
+        "video": "swingup-0.mp4",
+        "poster": "swingup-0.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "balance",
+        "update": 40,
+        "steps": 1024000,
+        "video": "balance-40.mp4",
+        "poster": "balance-40.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "swingup",
+        "update": 40,
+        "steps": 1024000,
+        "video": "swingup-40.mp4",
+        "poster": "swingup-40.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "balance",
+        "update": 80,
+        "steps": 2048000,
+        "video": "balance-80.mp4",
+        "poster": "balance-80.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "swingup",
+        "update": 80,
+        "steps": 2048000,
+        "video": "swingup-80.mp4",
+        "poster": "swingup-80.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      }
+    ]
+  },
+  {
+    "config": {
+      "method": "grouped",
+      "seed": 2,
+      "updates": 80,
+      "group_size": 8,
+      "groups": 8,
+      "horizon": 400,
+      "dt": 0.05,
+      "gamma": 1.0,
+      "gae_lambda": 0.95,
+      "policy_hidden": [
+        64,
+        64
+      ],
+      "observations": 7,
+      "policy_lr": 0.0003,
+      "critic_lr": 0.001,
+      "epochs": 4,
+      "minibatch": 1024,
+      "clip": 0.2,
+      "entropy_coefficient": 0.01,
+      "near_upright_start_probability": 0.75,
+      "training_steps": 2048000
+    },
+    "history": [
+      {
+        "steps": 0,
+        "training_seconds": 0.0,
+        "evaluation_seconds": 0.7232741369999989,
+        "balance": {
+          "mean_return": 9.91182131014495,
+          "mean_height": 0.5431275675641782,
+          "upright_fraction": 0.018828125,
+          "mean_longest_hold": 0.37656249999999997,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.808188536533388,
+          "mean_height": 0.5440121672885131,
+          "upright_fraction": 0.040078125,
+          "mean_longest_hold": 0.7921875,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.18161972130178003,
+          "mean_height": 0.009080986350769286,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.09934894380737996,
+          "mean_height": 0.004967447695076951,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        }
+      },
+      {
+        "steps": 256000,
+        "training_seconds": 6.376049175999999,
+        "evaluation_seconds": 1.4340959299999998,
+        "balance": {
+          "mean_return": 8.238848302626426,
+          "mean_height": 0.5220587264944352,
+          "upright_fraction": 0.038515625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.84406881491369,
+          "mean_height": 0.5453165501147466,
+          "upright_fraction": 0.039609375,
+          "mean_longest_hold": 0.7921875000000002,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.18151093225274245,
+          "mean_height": 0.009075546876312039,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.10490506831518726,
+          "mean_height": 0.005245253863125465,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 6.934675216674805,
+        "zero_variance_group_fraction": 0.0,
+        "approx_kl": 0.0004898628307273611,
+        "entropy": 1.0543657767772674,
+        "clip_fraction": 0.000205078125
+      },
+      {
+        "steps": 512000,
+        "training_seconds": 12.697665936,
+        "evaluation_seconds": 2.153554653999999,
+        "balance": {
+          "mean_return": 10.692605984211676,
+          "mean_height": 0.5259167480775754,
+          "upright_fraction": 0.038515625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.605628037467302,
+          "mean_height": 0.5294918223758862,
+          "upright_fraction": 0.037734375,
+          "mean_longest_hold": 0.7546875000000002,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.18151093225274245,
+          "mean_height": 0.009075546876312039,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.10034422028368746,
+          "mean_height": 0.00501721148775232,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 8.13477611541748,
+        "zero_variance_group_fraction": 0.0,
+        "approx_kl": 0.0015615167689975351,
+        "entropy": 1.0225443434715271,
+        "clip_fraction": 0.003369140625
+      },
+      {
+        "steps": 768000,
+        "training_seconds": 18.855392128000005,
+        "evaluation_seconds": 2.861588540999998,
+        "balance": {
+          "mean_return": 10.517611505664478,
+          "mean_height": 0.5216876095294244,
+          "upright_fraction": 0.038515625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.668064300035109,
+          "mean_height": 0.5395749758301058,
+          "upright_fraction": 0.036796875,
+          "mean_longest_hold": 0.7359375,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.18151093225274245,
+          "mean_height": 0.009075546876312039,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.10121159032068329,
+          "mean_height": 0.005060579831057008,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 8.937966346740723,
+        "zero_variance_group_fraction": 0.0,
+        "approx_kl": 0.000776302877929993,
+        "entropy": 1.0415766799449921,
+        "clip_fraction": 0.0
+      },
+      {
+        "steps": 1024000,
+        "training_seconds": 25.021439726000004,
+        "evaluation_seconds": 3.568375828999999,
+        "balance": {
+          "mean_return": 10.5543925442244,
+          "mean_height": 0.5268103783541207,
+          "upright_fraction": 0.038515625,
+          "mean_longest_hold": 0.7703125000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.505759637651899,
+          "mean_height": 0.5325942123693659,
+          "upright_fraction": 0.037265625,
+          "mean_longest_hold": 0.7453125,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.18151093225274245,
+          "mean_height": 0.009075546876312039,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.1044094153686346,
+          "mean_height": 0.005220471107305198,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 7.759541988372803,
+        "zero_variance_group_fraction": 0.0,
+        "approx_kl": 0.0016277677170000971,
+        "entropy": 1.0474187016487122,
+        "clip_fraction": 0.003720703125
+      },
+      {
+        "steps": 1280000,
+        "training_seconds": 31.21851227100001,
+        "evaluation_seconds": 4.281935450000001,
+        "balance": {
+          "mean_return": 10.16401302664677,
+          "mean_height": 0.5464546317934057,
+          "upright_fraction": 0.01984375,
+          "mean_longest_hold": 0.37968749999999996,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.97216012890158,
+          "mean_height": 0.5490452011504604,
+          "upright_fraction": 0.036796875,
+          "mean_longest_hold": 0.7359375000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.1747513184258367,
+          "mean_height": 0.008737566099934205,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.11076634772710572,
+          "mean_height": 0.005538318003324729,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 10.405302047729492,
+        "zero_variance_group_fraction": 0.0,
+        "approx_kl": 0.001563828731304966,
+        "entropy": 1.0403415966033935,
+        "clip_fraction": 0.001220703125
+      },
+      {
+        "steps": 1536000,
+        "training_seconds": 37.19619127500001,
+        "evaluation_seconds": 4.996271637000001,
+        "balance": {
+          "mean_return": 7.447869715364357,
+          "mean_height": 0.5976237687812851,
+          "upright_fraction": 0.018828125,
+          "mean_longest_hold": 0.37656249999999997,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.484828051291178,
+          "mean_height": 0.5401506202938114,
+          "upright_fraction": 0.036171875,
+          "mean_longest_hold": 0.7234375000000002,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.18151093225274245,
+          "mean_height": 0.009075546876312039,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.0949056570256946,
+          "mean_height": 0.00474528304158292,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 7.901857852935791,
+        "zero_variance_group_fraction": 0.0,
+        "approx_kl": 0.0019483129488071427,
+        "entropy": 1.0628729450702668,
+        "clip_fraction": 0.007529296875
+      },
+      {
+        "steps": 1792000,
+        "training_seconds": 43.20061364400001,
+        "evaluation_seconds": 5.689650037999991,
+        "balance": {
+          "mean_return": 9.390544180312904,
+          "mean_height": 0.5211568986971931,
+          "upright_fraction": 0.01796875,
+          "mean_longest_hold": 0.359375,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.752224114597054,
+          "mean_height": 0.549077875606436,
+          "upright_fraction": 0.03640625,
+          "mean_longest_hold": 0.7281250000000001,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.18151093225274245,
+          "mean_height": 0.009075546876312039,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.10363976394078449,
+          "mean_height": 0.005181988685461205,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 5.230942726135254,
+        "zero_variance_group_fraction": 0.0,
+        "approx_kl": 0.002943269395036623,
+        "entropy": 1.0597597932815552,
+        "clip_fraction": 0.007099609375
+      },
+      {
+        "steps": 2048000,
+        "training_seconds": 49.45537285600003,
+        "evaluation_seconds": 6.381065251999994,
+        "balance": {
+          "mean_return": 6.615892187844876,
+          "mean_height": 0.5823198818566524,
+          "upright_fraction": 0.01796875,
+          "mean_longest_hold": 0.359375,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "balance_sampled": {
+          "mean_return": 10.647688420459602,
+          "mean_height": 0.5371211251068873,
+          "upright_fraction": 0.03984375,
+          "mean_longest_hold": 0.7968750000000002,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup": {
+          "mean_return": 0.18151093225274245,
+          "mean_height": 0.009075546876312039,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "swingup_sampled": {
+          "mean_return": 0.1032208721263942,
+          "mean_height": 0.00516104382788134,
+          "upright_fraction": 0.0,
+          "mean_longest_hold": 0.0,
+          "hold_5s_rate": 0.0,
+          "episodes": 32
+        },
+        "training_return": 10.47459888458252,
+        "zero_variance_group_fraction": 0.0,
+        "approx_kl": 0.0016635367344133556,
+        "entropy": 1.0522573137283324,
+        "clip_fraction": 0.003896484375
+      }
+    ],
+    "status": "complete",
+    "recordings": [
+      {
+        "mode": "balance",
+        "update": 0,
+        "steps": 0,
+        "video": "balance-0.mp4",
+        "poster": "balance-0.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "swingup",
+        "update": 0,
+        "steps": 0,
+        "video": "swingup-0.mp4",
+        "poster": "swingup-0.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "balance",
+        "update": 40,
+        "steps": 1024000,
+        "video": "balance-40.mp4",
+        "poster": "balance-40.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "swingup",
+        "update": 40,
+        "steps": 1024000,
+        "video": "swingup-40.mp4",
+        "poster": "swingup-40.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "balance",
+        "update": 80,
+        "steps": 2048000,
+        "video": "balance-80.mp4",
+        "poster": "balance-80.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      },
+      {
+        "mode": "swingup",
+        "update": 80,
+        "steps": 2048000,
+        "video": "swingup-80.mp4",
+        "poster": "swingup-80.jpg",
+        "action_selection": "argmax",
+        "evaluation_seed": 10000,
+        "episode_index": 0
+      }
+    ]
+  }
+]

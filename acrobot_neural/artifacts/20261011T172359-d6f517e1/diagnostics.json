@@ -1,0 +1,121 @@
+{
+  "rows": [
+    {
+      "arm": "backward",
+      "stage": "initial",
+      "nominal_upright_torque": -0.006241548806428909,
+      "nominal_linear_spectral_radius": 0.922658948461925,
+      "reference_action_mae": {
+        "2": 0.0968170342468819,
+        "4": 0.5318112386127714,
+        "6": 0.7212832799130623,
+        "8": 0.7916687459328758,
+        "30": 0.9751402260931051
+      }
+    },
+    {
+      "arm": "backward",
+      "stage": "round-6",
+      "nominal_upright_torque": 0.04820982366800308,
+      "nominal_linear_spectral_radius": 1.0022593486735307,
+      "reference_action_mae": {
+        "2": 0.05596533543259914,
+        "4": 0.07913435779941409,
+        "6": 0.3965233234311454,
+        "8": 0.4763625548857865,
+        "30": 0.8215828863360748
+      }
+    },
+    {
+      "arm": "backward",
+      "stage": "final",
+      "nominal_upright_torque": -0.1267627328634262,
+      "nominal_linear_spectral_radius": 0.9657424895495802,
+      "reference_action_mae": {
+        "2": 0.06336380979879565,
+        "4": 0.0651266745456979,
+        "6": 0.05380539011965945,
+        "8": 0.1727083728353282,
+        "30": 0.6788891445091849
+      }
+    },
+    {
+      "arm": "corrective",
+      "stage": "initial",
+      "nominal_upright_torque": -0.006241548806428909,
+      "nominal_linear_spectral_radius": 0.922658948461925,
+      "reference_action_mae": {
+        "2": 0.0968170342468819,
+        "4": 0.5318112386127714,
+        "6": 0.7212832799130623,
+        "8": 0.7916687459328758,
+        "30": 0.9751402260931051
+      }
+    },
+    {
+      "arm": "corrective",
+      "stage": "round-23",
+      "nominal_upright_torque": -0.10313591361045837,
+      "nominal_linear_spectral_radius": 0.9699109946345341,
+      "reference_action_mae": {
+        "2": 0.07543112739546816,
+        "4": 0.07611231323057284,
+        "6": 0.06456186944969658,
+        "8": 0.13903868205814388,
+        "30": 0.5440817986484389
+      }
+    },
+    {
+      "arm": "corrective",
+      "stage": "final",
+      "nominal_upright_torque": -0.10294689238071442,
+      "nominal_linear_spectral_radius": 0.9653688462716945,
+      "reference_action_mae": {
+        "2": 0.10569949158443812,
+        "4": 0.0904945756304941,
+        "6": 0.07359871876081593,
+        "8": 0.14758616478794095,
+        "30": 0.5472859929866574
+      }
+    },
+    {
+      "arm": "full",
+      "stage": "initial",
+      "nominal_upright_torque": -0.006241548806428909,
+      "nominal_linear_spectral_radius": 0.922658948461925,
+      "reference_action_mae": {
+        "2": 0.0968170342468819,
+        "4": 0.5318112386127714,
+        "6": 0.7212832799130623,
+        "8": 0.7916687459328758,
+        "30": 0.9751402260931051
+      }
+    },
+    {
+      "arm": "full",
+      "stage": "final",
+      "nominal_upright_torque": 0.04673638939857483,
+      "nominal_linear_spectral_radius": 1.0610431718893665,
+      "reference_action_mae": {
+        "2": 0.0908926586828035,
+        "4": 0.07691481675409666,
+        "6": 0.07457148429643055,
+        "8": 0.06896807518915515,
+        "30": 0.06386804079235776
+      }
+    }
+  ],
+  "teacher_successes": {
+    "2": 32,
+    "4": 32,
+    "6": 32,
+    "8": 32,
+    "12": 32,
+    "16": 32,
+    "20": 32,
+    "25": 32,
+    "30": 32
+  },
+  "teacher_episodes_per_start": 32,
+  "caveat": "Nominal linear spectral radius is a local diagnostic, not a nonlinear stability proof; nonzero torque means nominal upright is not an equilibrium."
+}

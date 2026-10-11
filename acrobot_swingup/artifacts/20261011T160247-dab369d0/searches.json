@@ -1,0 +1,299 @@
+[
+  {
+    "seed": 0,
+    "success": false,
+    "attempts": [
+      {
+        "attempt": 0,
+        "fit": {
+          "nfev": 700,
+          "max_defect": 0.06353287041547162,
+          "residual_norm": 0.15199763172091946,
+          "seconds": 85.462277786
+        },
+        "validation": {
+          "episodes": 1,
+          "final_10s_rate": 0.0,
+          "final_hold_seconds": [
+            0.0
+          ],
+          "longest_hold_seconds": [
+            0.0
+          ],
+          "final_states": [
+            [
+              -1.9675325769431353,
+              -1.260484600054998,
+              -2.8983083549024418,
+              3.6067424292454344
+            ]
+          ],
+          "physics_dt": 0.005,
+          "max_height": [
+            0.9811436573188757
+          ]
+        }
+      },
+      {
+        "attempt": 1,
+        "fit": {
+          "nfev": 700,
+          "max_defect": 0.17084796412143177,
+          "residual_norm": 0.4476450330413591,
+          "seconds": 85.635927534
+        },
+        "validation": {
+          "episodes": 1,
+          "final_10s_rate": 0.0,
+          "final_hold_seconds": [
+            0.0
+          ],
+          "longest_hold_seconds": [
+            0.0
+          ],
+          "final_states": [
+            [
+              1.5589723185083733,
+              0.3759193800132108,
+              3.679819582373659,
+              -5.251844537228014
+            ]
+          ],
+          "physics_dt": 0.005,
+          "max_height": [
+            0.9811201621187414
+          ]
+        }
+      },
+      {
+        "attempt": 2,
+        "fit": {
+          "nfev": 700,
+          "max_defect": 0.20289248184409558,
+          "residual_norm": 0.5113515146233958,
+          "seconds": 86.04348233799999
+        },
+        "validation": {
+          "episodes": 1,
+          "final_10s_rate": 0.0,
+          "final_hold_seconds": [
+            0.0
+          ],
+          "longest_hold_seconds": [
+            0.0
+          ],
+          "final_states": [
+            [
+              2.6074813027876464,
+              0.38648021429846136,
+              0.1488618251964515,
+              2.134509517489102
+            ]
+          ],
+          "physics_dt": 0.005,
+          "max_height": [
+            0.9950380767433871
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "seed": 1,
+    "success": false,
+    "attempts": [
+      {
+        "attempt": 0,
+        "fit": {
+          "nfev": 700,
+          "max_defect": 0.03462442216199335,
+          "residual_norm": 0.07730044646339247,
+          "seconds": 83.83704025300001
+        },
+        "validation": {
+          "episodes": 1,
+          "final_10s_rate": 0.0,
+          "final_hold_seconds": [
+            0.0
+          ],
+          "longest_hold_seconds": [
+            0.0
+          ],
+          "final_states": [
+            [
+              -0.6871225690161156,
+              0.835398027115204,
+              4.839359137162316,
+              -9.388868249478197
+            ]
+          ],
+          "physics_dt": 0.005,
+          "max_height": [
+            0.9951003984859883
+          ]
+        }
+      },
+      {
+        "attempt": 1,
+        "fit": {
+          "nfev": 700,
+          "max_defect": 0.0017956216179069173,
+          "residual_norm": 0.0050003775187820515,
+          "seconds": 83.595051783
+        },
+        "validation": {
+          "episodes": 1,
+          "final_10s_rate": 0.0,
+          "final_hold_seconds": [
+            0.0
+          ],
+          "longest_hold_seconds": [
+            0.0
+          ],
+          "final_states": [
+            [
+              1.0983730144470698,
+              -0.09445860646531212,
+              -3.4452120374791995,
+              -0.30167226693999066
+            ]
+          ],
+          "physics_dt": 0.005,
+          "max_height": [
+            0.9997187318403705
+          ]
+        }
+      },
+      {
+        "attempt": 2,
+        "fit": {
+          "nfev": 700,
+          "max_defect": 0.10420720938333439,
+          "residual_norm": 0.2676427875160732,
+          "seconds": 83.67119247600002
+        },
+        "validation": {
+          "episodes": 1,
+          "final_10s_rate": 0.0,
+          "final_hold_seconds": [
+            0.0
+          ],
+          "longest_hold_seconds": [
+            0.0
+          ],
+          "final_states": [
+            [
+              0.286554460874362,
+              0.6115317580788382,
+              -0.9725512377650455,
+              -6.3784828253648085
+            ]
+          ],
+          "physics_dt": 0.005,
+          "max_height": [
+            0.9810134065078491
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "seed": 2,
+    "success": false,
+    "attempts": [
+      {
+        "attempt": 0,
+        "fit": {
+          "nfev": 700,
+          "max_defect": 0.008124805725651996,
+          "residual_norm": 0.022902451742908312,
+          "seconds": 86.834271453
+        },
+        "validation": {
+          "episodes": 1,
+          "final_10s_rate": 0.0,
+          "final_hold_seconds": [
+            0.0
+          ],
+          "longest_hold_seconds": [
+            0.0
+          ],
+          "final_states": [
+            [
+              1.7571993093840268,
+              0.2659680278226233,
+              -2.934093696774453,
+              6.279077915000667
+            ]
+          ],
+          "physics_dt": 0.005,
+          "max_height": [
+            0.9642338948764103
+          ]
+        }
+      },
+      {
+        "attempt": 1,
+        "fit": {
+          "nfev": 700,
+          "max_defect": 0.003905118171797284,
+          "residual_norm": 0.010841438798931147,
+          "seconds": 85.58539170799999
+        },
+        "validation": {
+          "episodes": 1,
+          "final_10s_rate": 0.0,
+          "final_hold_seconds": [
+            0.0
+          ],
+          "longest_hold_seconds": [
+            0.5250000000000004
+          ],
+          "final_states": [
+            [
+              -1.6357126023713633,
+              -0.42735644599878064,
+              2.014371728636555,
+              1.132020594933934
+            ]
+          ],
+          "physics_dt": 0.005,
+          "max_height": [
+            0.9979516192482645
+          ]
+        }
+      },
+      {
+        "attempt": 2,
+        "fit": {
+          "nfev": 700,
+          "max_defect": 0.008640239005963224,
+          "residual_norm": 0.026037082413138703,
+          "seconds": 86.20187087300002
+        },
+        "validation": {
+          "episodes": 1,
+          "final_10s_rate": 0.0,
+          "final_hold_seconds": [
+            0.0
+          ],
+          "longest_hold_seconds": [
+            0.0
+          ],
+          "final_states": [
+            [
+              1.7897963339276366,
+              -0.006685408713702046,
+              1.9827432776593386,
+              0.12828804323449772
+            ]
+          ],
+          "physics_dt": 0.005,
+          "max_height": [
+            0.9774037329863027
+          ]
+        }
+      }
+    ]
+  }
+]
